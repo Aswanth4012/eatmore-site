@@ -1,6 +1,11 @@
 /*#brand-name{
     size: 2em;
 }*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
 #brand-img{
     height: 50px;
     width: 50px;
@@ -73,8 +78,13 @@
     z-index: -1;
 }
 #home-intro-header{
-    font-size: 180px;
+    font-size: 13rem;
     margin-top: 0.5em;
+}
+@media(max-width:760px){
+    #home-intro-header{
+        font-size: 7rem;
+    }
 }
 #home-intro-Subheader{
     font-size: 2rem;
@@ -85,9 +95,9 @@
 #home-intro2-header{
     font-size: 3rem;
 }
-@media (max-width:992px){
-    #home-intro-header{
-        font-size: 10.6rem;
+@media (max-width:760px){
+    #home-intro2-header{
+        font-size: 2rem;
     }
 }
 .overlay{
