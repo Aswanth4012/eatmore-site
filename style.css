@@ -78,14 +78,14 @@
     z-index: -1;
 }
 #home-intro-header{
-    font-size: 13rem;
+    font-size: 100px;
     margin-top: 0.5em;
 }
-@media(max-width:760px){
+/*@media(max-width:760px){
     #home-intro-header{
         font-size: 7rem;
     }
-}
+}*/
 #home-intro-Subheader{
     font-size: 2rem;
 }
