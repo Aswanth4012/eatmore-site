@@ -202,3 +202,63 @@ footer {
     vertical-align: middle;
    
 }
+#user{
+    z-index: 1;
+    position: fixed;
+    top: 150px;
+    width: 350px;
+    display: none;
+    
+}
+#btn-login{
+    width: 100%;
+    border-radius: 50px;
+    background-color: #414142;
+    border: none;
+}#btn-login:hover{
+    background-color: #9e9ea3;
+}
+#signup-socialmedia{
+    align-items: center;
+    justify-content: center;
+}
+.socialmedia-div{
+    height: 35px;
+    width: 35px;
+    
+    align-items: center;
+    justify-content: center;
+}
+.fa-brands{
+    margin-left: 7px;
+    margin-top: 7px;
+    color: #414142;
+}
+.form-control{
+    border: none;
+    
+}
+.form-control:focus{
+    outline: none;
+    box-shadow: none;
+}
+.form-control::placeholder{
+    color: #9e9ea3;
+}
+#log-txt-container{
+    border-bottom: 1px solid #bbbbbe;
+}
+.fa-user,.fa-lock{
+    color:#bbbbbe ;
+}
+.overlay-login{
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.fa-xmark{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
