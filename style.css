@@ -1,11 +1,14 @@
 /*#brand-name{
     size: 2em;
 }*/
+
 *{
     margin: 0;
     padding: 0;
 }
-
+s{
+    color: rgb(185, 44, 75);
+}
 #brand-img{
     height: 50px;
     width: 50px;
